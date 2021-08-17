@@ -1,0 +1,132 @@
+.burger-icon {
+  stroke-width: 2px;
+  margin-left: 20px;
+  top: 20px;
+  position: relative;
+  z-index: 100000;
+}
+
+.burger-icon:hover {
+  cursor: pointer;
+}
+
+.burger-nav-links {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  color: white;
+  height: 40%;
+}
+
+.burger-nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.burger-nav-links a:hover {
+  color: gray;
+}
+
+.x-icon {
+  color: rgb(177, 169, 169) !important;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.6s;
+  stroke-width: 10px;
+}
+
+.x-icon.active {
+  left: 20px;
+  top: 20px;
+  opacity: 1;
+  color: rgb(24, 24, 24) !important;
+  position: fixed;
+  stroke-width: 10px;
+}
+
+.x-icon:hover {
+  cursor: pointer;
+  color: #e2dddd !important;
+}
+
+.burger-menu {
+  line-height: normal;
+  background-color: #dfe1e0;
+  width: 100%;
+  z-index: 10000;
+  margin-top: 130px;
+  height: 100%;
+  position: fixed;
+  top: -110%;
+  border-left: rgba(255, 255, 255, 0.226) 1px solid;
+  left: -2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.svg-icons {
+  vertical-align: top;
+}
+
+.burger-menu-content {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  padding-left: 85px;
+  text-align: left;
+  font-size: 20px;
+  margin: auto 0;
+  background-color: black;
+}
+.burger-menu-content a:active {
+  color: #3f51b5;
+}
+
+.burger-menu.active {
+  left: -2px;
+  top: 0;
+  background-color: white;
+  background: rgba(0, 0, 0, 0.541);
+  opacity: 1;
+}
+
+.backdrop {
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.burger-menu-component {
+  right: 20px;
+}
+.hidden-shown-links {
+  display: block;
+  position: relative;
+  width: 100px;
+  font-size: 22px;
+  margin: 0;
+  padding: 10px 20px;
+  color: white;
+}
+.hidden-shown-links a {
+  display: block;
+  margin-bottom: 0.7vh;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.hidden-shown-links a:visited {
+  color: white;
+}
+.hidden-shown-links a:active {
+  color: #3f51b5;
+}

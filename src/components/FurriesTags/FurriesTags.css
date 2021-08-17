@@ -1,0 +1,29 @@
+.furries-1st-p {
+  color: red;
+}
+.furries-2nd-p {
+  color: orange;
+}
+.furries-3rd-p {
+  color: yellow;
+}
+.furries-4th-p {
+  color: rgb(19, 226, 19);
+}
+.furries-5th-p {
+  color: blue;
+}
+.furries-6th-p {
+  color: rgb(134, 43, 219);
+}
+.furries-7th-p {
+  color: rgb(219, 0, 219);
+}
+.p-furries-tags {
+  padding: 4vh 6vw 0vh 6vw;
+  text-align: center;
+}
+.p-furries-tags p {
+  margin: 0;
+  font-size: 20px;
+}
